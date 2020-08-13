@@ -3,7 +3,7 @@
   "version": "0.0.1-alpha",
   "description": "@rehoboam cyberpunk design system react components",
   "main": "./dist/rehoboam-react.js",
-  "author": "@fr0nk3nst33n",
+  "author": "Fr0nk3ns33n <josh@masterminddesign.io>",
   "license": "MIT",
   "repository": {
     "type": "git",
