@@ -1,12 +1,15 @@
 {
   "name": "@rehoboam/styles",
-  "version": "0.0.1-alpha-1.0",
+  "version": "0.0.1-alpha",
   "description": "@rehoboam cyberpunk design system styles",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Fr0nk3ns33n <josh@masterminddesign.io>",
   "license": "MIT",
-  "gitHead": "832de5722ad27d5edae785b5d6c1c0346d485914"
+  "gitHead": "1306bc1cde962842c8decf7450849108faabc4e3"
 }
