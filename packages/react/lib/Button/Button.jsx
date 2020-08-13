@@ -5,8 +5,12 @@ export const Button = (props) => {
   const { children } = props;
   const [clickCount, setClickCount] = React.useState(0);
 
+  const click = async () => {
+    setClickCount(clickCount + 1);
+  };
+
   return (
-    <button onClick={() => setClickCount(clickCount + 1)}>
+    <button onClick={click}>
       {children}: {clickCount}
     </button>
   );
