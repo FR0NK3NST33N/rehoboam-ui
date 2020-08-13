@@ -7,6 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Fr0nk3ns33n <josh@masterminddesign.io>",
-  "license": "ISC",
+  "license": "MIT",
   "gitHead": "832de5722ad27d5edae785b5d6c1c0346d485914"
 }
