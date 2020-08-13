@@ -1,6 +1,6 @@
 {
   "name": "@rehoboam/react",
-  "version": "0.0.1-alpha-1.0",
+  "version": "0.0.1-alpha",
   "description": "@rehoboam cyberpunk design system react components",
   "main": "./dist/rehoboam-react.js",
   "author": "@fr0nk3nst33n",
