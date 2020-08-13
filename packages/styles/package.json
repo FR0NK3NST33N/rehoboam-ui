@@ -1,6 +1,6 @@
 {
   "name": "@rehoboam/styles",
-  "version": "0.0.1-alpha-1.0",
+  "version": "0.0.1-alpha",
   "description": "@rehoboam cyberpunk design system styles",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,5 @@
   },
   "author": "@fr0nk3nst33n",
   "license": "ISC",
-  "gitHead": "cb515fbc01b0e163db8779c73507b57300883aca"
+  "gitHead": "960273fce7176b1545d52d474b9b6ec149cee97f"
 }
