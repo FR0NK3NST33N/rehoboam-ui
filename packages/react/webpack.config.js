@@ -9,7 +9,7 @@ module.exports = {
   entry: path.join(__dirname, "./lib/index.js"),
   output: {
     path: path.join(__dirname, "./dist"),
-    filename: "ssb-components-react.js",
+    filename: "rehoboam-react.js",
     library: libraryName,
     libraryTarget: "umd",
     publicPath: "/dist/",
