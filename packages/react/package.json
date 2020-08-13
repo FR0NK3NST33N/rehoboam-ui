@@ -4,7 +4,7 @@
   "description": "@rehoboam cyberpunk design system react components",
   "main": "./dist/rehoboam-react.js",
   "author": "@fr0nk3nst33n",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FR0NK3NST33N/rehoboam-ui"
@@ -61,13 +61,8 @@
     "webpack": "^4.33.0",
     "webpack-cli": "^3.3.5"
   },
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
   "files": [
-    "lib",
     "dist"
   ],
-  "gitHead": "960273fce7176b1545d52d474b9b6ec149cee97f"
+  "gitHead": "832de5722ad27d5edae785b5d6c1c0346d485914"
 }
