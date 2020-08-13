@@ -1,0 +1,11 @@
+{
+  "name": "@rehoboam/styles",
+  "version": "0.0.1-alpha-1",
+  "description": "@rehoboam cyberpunk design system styles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@fr0nk3nst33n",
+  "license": "ISC"
+}
