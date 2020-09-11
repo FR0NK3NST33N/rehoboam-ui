@@ -1,5 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
+import classnames from "classnames";
+
+import styles from "@rehoboam/styles"
 
 export const Button = (props) => {
   const { children } = props;
@@ -10,7 +13,7 @@ export const Button = (props) => {
   };
 
   return (
-    <button onClick={click}>
+    <button className={classnames(styles.btn)} onClick={click}>
       {children}: {clickCount}
     </button>
   );

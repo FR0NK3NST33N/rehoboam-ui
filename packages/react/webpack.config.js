@@ -34,7 +34,7 @@ module.exports = {
             options: {
               importLoaders: 1,
               modules: {
-                localIdentName: "[name]_[local]__[hash:base64:5]",
+                localIdentName: "rehoboam_[local]__[hash:base64:5]",
               },
               localsConvention: "camelCase",
               sourceMap: true,
@@ -55,7 +55,7 @@ module.exports = {
             loader: "css-loader",
             options: {
               modules: {
-                localIdentName: "[name]_[local]__[hash:base64:5]",
+                localIdentName: "rehoboam_[local]__[hash:base64:5]",
               },
               localsConvention: "camelCase",
               sourceMap: true,
@@ -93,4 +93,9 @@ module.exports = {
       root: "ReactDOM",
     },
   },
+  resolve: {
+    alias: {
+      '@rehoboam/styles': path.resolve(__dirname, './../styles/dist/rehoboam.min.css')
+    }
+  }
 };

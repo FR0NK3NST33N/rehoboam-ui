@@ -1,0 +1,11 @@
+{
+  "name": "@rehoboam/website",
+  "version": "0.0.1-alpha-2.0",
+  "description": "Rehoboam Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fr0nk3snt33n",
+  "license": "ISC"
+}

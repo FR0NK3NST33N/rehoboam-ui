@@ -1,15 +1,34 @@
 {
   "name": "@rehoboam/styles",
-  "version": "0.0.1-alpha-1.0",
+  "version": "0.0.1-alpha-2.0",
   "description": "@rehoboam cyberpunk design system styles",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --env.ENV=dev --config ./webpack.config.js --watch",
+    "build": "webpack --env.ENV=prod --config ./webpack.config.js",
+    "prepublishOnly": "npm run build"
   },
+  "style": "dist/rehoboam.css",
+  "sass": "dist/rehoboam.scss",
   "author": "Fr0nk3ns33n <josh@masterminddesign.io>",
   "license": "MIT",
-  "gitHead": "1306bc1cde962842c8decf7450849108faabc4e3"
+  "gitHead": "1306bc1cde962842c8decf7450849108faabc4e3",
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.1.0",
+    "css-loader": "^4.3.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.1.0",
+    "mini-css-extract-plugin": "^0.11.1",
+    "node-sass": "^4.14.1",
+    "postcss": "^7.0.32",
+    "postcss-loader": "^4.0.1",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }

@@ -1,4 +1,5 @@
 {
+  "name": "rehoboam",
   "private": false,
   "scripts": {
     "new-version": "lerna version --convenntional-commits --yes",
