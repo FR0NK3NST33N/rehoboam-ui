@@ -1,6 +1,6 @@
 {
   "name": "@rehoboam/styles",
-  "version": "0.0.1-alpha-2.0",
+  "version": "0.0.1-alpha-3.0",
   "description": "@rehoboam cyberpunk design system styles",
   "main": "index.js",
   "publishConfig": {
